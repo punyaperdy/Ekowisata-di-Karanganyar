@@ -1,0 +1,132 @@
+/* ===== Reset & Umum ===== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f4f8f5;
+  color: #333;
+}
+
+/* ===== Navigasi ===== */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e7d32;
+  color: white;
+  padding: 15px 40px;
+}
+
+nav h1 {
+  font-size: 22px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+  text-align: center;
+  color: white;
+  padding: 100px 20px;
+  background-blend-mode: overlay;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background-color: #ffd700;
+  color: #333;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffca00;
+}
+
+/* ===== Section Umum ===== */
+.content-section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.content-section h2 {
+  color: #1b5e20;
+  margin-bottom: 40px;
+  font-size: 26px;
+}
+
+/* ===== Kartu Potensi ===== */
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  width: 350px;
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 15px;
+  color: #2e7d32;
+}
+
+.card p {
+  margin: 0 15px 20px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
